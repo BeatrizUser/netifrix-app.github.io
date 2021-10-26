@@ -3,12 +3,14 @@ import './App.css'
 import Tmdb from './tmdb.js';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeatureMovie';
+import Header from './components/Header';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
 
     const [movieList, setMovieList] = useState([]);
     const [featuredData, setFeaturedData] = useState(null)
+    const [blackHeader, setBlackHeader] = useState(false)
 
     useEffect(()=>{
       const LoadAll = async ()=>{
@@ -26,9 +28,26 @@ export default () => {
       LoadAll();
     }, []);
 
+    useEffect (()=>{
+      const scrollListener = ()=>{
+        if(window.scrollY > 12){
+          setBlackHeader(true)
+        } else{
+          setBlackHeader(false)
+        }
+      }
+      window.addEventListener('scroll', scrollListener);
+      return () => {
+        window.removeEventListener('scroll', scrollListener)
+      }
+
+    }, []);
+
     return(
         <div className= "page">
 
+          <Header black={blackHeader}/>
+          
           {featuredData &&
             <FeaturedMovie item={featuredData}/>
           }
