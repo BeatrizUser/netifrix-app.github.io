@@ -2,7 +2,6 @@ import React, { useState }from "react";
 import './MovieRow.css';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-import { RoundedCorner } from "@material-ui/icons";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({title, itens}) => {

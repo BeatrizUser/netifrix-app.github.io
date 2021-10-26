@@ -1,6 +1,7 @@
 import React from "react";
 import './Header.css';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default ({black})=>{
     return (
         <header className={black ? 'black' : ''}>
@@ -11,7 +12,7 @@ export default ({black})=>{
             </div>
             <div className="header--user">
                 <a href="/">
-                    <img src="https://occ-0-1498-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABenK7eqn1F_ZhvdTTfYnUfDwrhDOz1zeAT768YUIRAn3IglungKyeHqdcLkU8YBPSM3pMWFr-lthHNvc2_fGkNvXHwk-.png?r=2c1"></img>
+                    <img src="https://occ-0-1498-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABenK7eqn1F_ZhvdTTfYnUfDwrhDOz1zeAT768YUIRAn3IglungKyeHqdcLkU8YBPSM3pMWFr-lthHNvc2_fGkNvXHwk-.png?r=2c1" alt=""></img>
                 </a>
             </div>
         </header>
