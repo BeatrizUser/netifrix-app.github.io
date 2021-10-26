@@ -71,3 +71,29 @@
     font-size: 18px;
     color: #999;
 }
+@media (max-width:760px){
+    .featured{
+        height: 90vh;
+    }
+    .featured--name{
+        font-size: 4vh;
+    }
+    .featured--info{
+        font-size: 16px;
+    }
+    .featured--description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .featured--watchButton,
+    .featured--listButton {
+        font-size: 16px;
+    }
+    .featured--horizontal{
+        background: linear-gradient(to right, #111 10%, transparent 120%);
+    }
+    .featured--genres{
+        font-size: 14px;
+    }
+}
