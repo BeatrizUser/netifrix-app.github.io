@@ -23,5 +23,7 @@ header.black{
 }
 .header--user {
     height: 40px;
+}
+.header--user img{
     border-radius: 3px;
 }
