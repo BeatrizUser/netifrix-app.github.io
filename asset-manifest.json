@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/netifrix-app.github.io/build/static/css/main.1a8e372f.chunk.css",
+    "main.js": "/netifrix-app.github.io/build/static/js/main.16053483.chunk.js",
+    "main.js.map": "/netifrix-app.github.io/build/static/js/main.16053483.chunk.js.map",
+    "runtime-main.js": "/netifrix-app.github.io/build/static/js/runtime-main.a6471dc2.js",
+    "runtime-main.js.map": "/netifrix-app.github.io/build/static/js/runtime-main.a6471dc2.js.map",
+    "static/js/2.5010d4fe.chunk.js": "/netifrix-app.github.io/build/static/js/2.5010d4fe.chunk.js",
+    "static/js/2.5010d4fe.chunk.js.map": "/netifrix-app.github.io/build/static/js/2.5010d4fe.chunk.js.map",
+    "index.html": "/netifrix-app.github.io/build/index.html",
+    "static/css/main.1a8e372f.chunk.css.map": "/netifrix-app.github.io/build/static/css/main.1a8e372f.chunk.css.map",
+    "static/js/2.5010d4fe.chunk.js.LICENSE.txt": "/netifrix-app.github.io/build/static/js/2.5010d4fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6471dc2.js",
+    "static/js/2.5010d4fe.chunk.js",
+    "static/css/main.1a8e372f.chunk.css",
+    "static/js/main.16053483.chunk.js"
+  ]
+}
