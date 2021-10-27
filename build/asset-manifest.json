@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a8e372f.chunk.css",
-    "main.js": "/static/js/main.16053483.chunk.js",
-    "main.js.map": "/static/js/main.16053483.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7077cf30.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7077cf30.js.map",
-    "static/js/2.5010d4fe.chunk.js": "/static/js/2.5010d4fe.chunk.js",
-    "static/js/2.5010d4fe.chunk.js.map": "/static/js/2.5010d4fe.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.1a8e372f.chunk.css.map": "/static/css/main.1a8e372f.chunk.css.map",
-    "static/js/2.5010d4fe.chunk.js.LICENSE.txt": "/static/js/2.5010d4fe.chunk.js.LICENSE.txt"
+    "main.css": "/BeatrizUser/netifrix-app.github.iostatic/css/main.1a8e372f.chunk.css",
+    "main.js": "/BeatrizUser/netifrix-app.github.iostatic/js/main.9b2a9a1c.chunk.js",
+    "main.js.map": "/BeatrizUser/netifrix-app.github.iostatic/js/main.9b2a9a1c.chunk.js.map",
+    "runtime-main.js": "/BeatrizUser/netifrix-app.github.iostatic/js/runtime-main.4909fd52.js",
+    "runtime-main.js.map": "/BeatrizUser/netifrix-app.github.iostatic/js/runtime-main.4909fd52.js.map",
+    "static/js/2.5010d4fe.chunk.js": "/BeatrizUser/netifrix-app.github.iostatic/js/2.5010d4fe.chunk.js",
+    "static/js/2.5010d4fe.chunk.js.map": "/BeatrizUser/netifrix-app.github.iostatic/js/2.5010d4fe.chunk.js.map",
+    "index.html": "/BeatrizUser/netifrix-app.github.ioindex.html",
+    "static/css/main.1a8e372f.chunk.css.map": "/BeatrizUser/netifrix-app.github.iostatic/css/main.1a8e372f.chunk.css.map",
+    "static/js/2.5010d4fe.chunk.js.LICENSE.txt": "/BeatrizUser/netifrix-app.github.iostatic/js/2.5010d4fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7077cf30.js",
+    "static/js/runtime-main.4909fd52.js",
     "static/js/2.5010d4fe.chunk.js",
     "static/css/main.1a8e372f.chunk.css",
-    "static/js/main.16053483.chunk.js"
+    "static/js/main.9b2a9a1c.chunk.js"
   ]
 }
